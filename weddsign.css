@@ -1,21 +1,237 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
 .wrapper{
 	width: 980px;
 	height: 1200px;
 	position: relative;
+	margin: 0 auto;
 }
 /*css phần 1*/
 /*css phần 2*/
 /*css phần 3*/
+.wrapper .recent{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background: #302c26;
+	position: relative;
+}
+.wrapper .recent h3{
+	font-size: 30px;
+	position: absolute;
+	top: 5px;
+	color: #ea8c00;		
+}
+.wrapper .recent ul{
+	width: 100%;
+	height: 100%;
+}
+.wrapper .recent ul li.l1{
+	position: absolute;
+	width:24%;
+	height: 80%;
+	bottom: 5px;
+	list-style: none;
+
+}
+.wrapper .recent ul li.l2{
+	position: absolute;
+	width:24%;
+	height: 80%;
+	bottom: 5px;
+	left: 25.4%;
+	list-style: none;
+}
+.wrapper .recent ul li.l3{
+	position: absolute;
+	width:24%;
+	height: 80%;
+	bottom: 5px;
+	left: 50.8%;
+	list-style: none;
+}
+.wrapper .recent ul li.l4{
+	position: absolute;
+	width:24%;
+	height: 80%;
+	bottom: 5px;
+	left: 76.1%;
+	list-style: none;
+}
+.wrapper .recent ul li img{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	position: relative;
+}
+.wrapper .recent ul li p.lou{
+	width: 100%;
+	height: 40px;
+	background:#33363a;
+	position: absolute;
+	font-size: 20px;
+	bottom: 0px;
+	color: white;
+	border-bottom: 2px solid #efb943;
+	line-height: 40px;
+}
+.wrapper .recent ul li .contents1{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background:#33363a;
+	top: -101.8%;
+	position: relative;
+/*	transition: 8s;*/
+}
+.wrapper .recent ul li .contents1 p.p1{
+	position: absolute;
+	left: 10px;
+	font-size: 25px;
+	color: white;
+}
+.wrapper .recent .contents1 p.p2a{
+	position: absolute;
+	left: 10px;
+	top: 60px;
+	font-size: 15px;
+	color: white;
+}
+.wrapper .recent .contents1 p.p2b{
+	position: absolute;
+	top: 60px;
+	left: 90px;
+	font-size: 17px;
+	color: white;
+}
+.wrapper .recent .contents1 p.p3a{
+	position: absolute;
+	left: 10px;
+	top: 105px;
+	font-size: 15px;
+	color: white;
+}
+.wrapper .recent .contents1 p.p3b{
+	position: absolute;
+	top: 105px;
+	left: 90px;
+	font-size: 17px;
+	color: white;
+}
+.wrapper .recent ul li .contents1 p.p4{
+	position: absolute;
+	left: 10px;
+	top: 130px;
+	font-size: 15px;
+	color: white;
+}
+.wrapper .recent ul li .contents1 a{
+	position: absolute;
+	top: 130px;
+	left: 90px;
+	font-size: 17px;
+	color: #efb943;
+}
+.wrapper .recent ul li .contents1 .a, .b{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	border: 7px solid white;
+	border-radius: 50%;
+	bottom: 5px;
+	left: 10px;
+}
+.wrapper .recent ul li .contents1 .b{
+	left: 65px;
+}
+.wrapper .recent ul li .contents1 .a .a1, .a2{
+	position: absolute;
+	width: 25px;
+	height: 7px;
+	background:white;
+	top: 14px;
+	left: 5px;
+}
+.wrapper .recent ul li .contents1 .b .b1{
+	position: absolute;
+	width: 27px;
+	height: 5px;
+	background:white;
+	border-radius: 5px;
+	top: 15px;
+	left: 5px;
+	transform: rotate(-50deg);
+}
+.wrapper .recent ul li .contents1 .a .a2{
+	transform: rotate(90deg);
+}
+.wrapper .recent ul li:hover .contents1{
+	display: block;
+}
 /*css phần 4*/
 @media screen and (max-width: 768px){
+	.wrapper{
+		width: 100%;
+	}
 /*css phần 1*/
 /*css phần 2*/
 /*css phần 3*/
 /*css phần 4*/
 }
 @media screen and (max-width: 480px){
+	.wrapper{
+		width: 100%;
+		height: 2000px;
+	}
 /*css phần 1*/
 /*css phần 2*/
 /*css phần 3*/
+	.wrapper .recent{
+		height: 1000px;
+	}
+	.wrapper .recent h3{
+		left: 18%;
+		top: 15px;
+		font-size: 20px;
+	}
+	.wrapper .recent ul{
+		position: absolute;	
+		top:-200px;
+		width: 70%;
+		height: 100%;	
+	}
+	.wrapper .recent ul li.l1{
+	position: absolute;
+	width:100%;
+	height: 23%;
+	left:0;
+	top: 250px;
+	left: 22%;
+}
+.wrapper .recent ul li.l2{
+	position: absolute;
+	width:100%;
+	height: 23%;
+	top: 49%;
+	left: 22%;
+}
+.wrapper .recent ul li.l3{
+	position: absolute;
+	width:100%;
+	height: 23%;
+	top: 73%;
+	left: 22%;
+}
+.wrapper .recent ul li.l4{
+	position: absolute;
+	width:100%;
+	height: 23%;
+	top: 97%;
+	left: 22%;
+}
 /*css phần 4*/
 }
