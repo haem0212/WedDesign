@@ -1,20 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 .wrapper{
+	margin: 0 auto;
 	width: 980px;
 	height: 1200px;
-	position: relative;
 }
 /*css phần 1*/
+.wrapper .head{
+	width: 100%;
+	height: 120px;
+	background: #191a1c;
+	border-bottom: 5px solid orangered;
+	position: relative;
+}
+.wrapper .head .img{
+	width: 190px;
+	height: 97px;
+	/* background: blue; */
+	position: absolute;
+	left: 8%;
+}
+.wrapper .head .img img{
+	width: 190px;
+	height: 100%;
+	padding-top: 3%;
+}
+.wrapper .head .menu{
+	width: 60%;
+	height: 40px;
+	/* background: green; */
+	position: absolute;
+	top: 35%;
+	right: 4%;
+}
+.wrapper .head .menu ul{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+.wrapper .head .menu ul li{
+	float: left;
+	display: block;
+	width: 15%;
+	height: 100%;
+	text-align: center;
+	/* background: silver; */
+	position: relative;
+	margin-right: 2%;
+}
+.wrapper .head .menu ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+	/*background: gray;*/
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Dosis';
+	line-height: 40px;
+}
+.wrapper .head .menu ul li:hover{
+	display: block;
+	float: left;
+	width: 15%;
+	height: 100%;
+	background: #0b0b0c;
+	text-align: center;
+}
+.wrapper .head .menu ul li a:hover{
+	color: #ef9e0f;
+}
+.wrapper .head .menu ul li.home{
+	display: block;
+	width: 10%;
+	height: 100%;
+	background: #0b0b0c;
+}
+.wrapper .head .menu ul li.home a{
+	color: #ef9e0f;
+}
+.wrapper .head .menu ul li ul{
+	display: none;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+}
+.wrapper .head .menu ul li:hover ul{
+	display: block;
+}
+.wrapper .head .menu ul li ul li{
+	display: block;
+	width: 200%;
+	height: 40px;
+	background: #191a1c;
+	box-shadow: 2px 2px black;
+}
+.wrapper .head .menu ul li ul li:hover{
+	display: block;
+	width:200%;
+	height: 40px;
+	background: #191a1c;
+}
+.wrapper .head .menu ul li ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: white;
+	text-align: left;
+	line-height: 40px;
+	font-size: 12px;
+	padding-left: 10%;
+}
+.wrapper .head .menu ul li ul li a:hover{
+	padding-left: 15%;
+	color: white;
+}
+.wrapper .head .tinynav{
+	display: none;
+}
+.wrapper .slideshow{
+	width: 100%;
+	height:450px;
+	background-image: url('../icons/pexels-photo-255377.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.wrapper .slideshow .pic1{
+	display: block;
+	width: 30%;
+	height: 100%;
+	/* background: cyan; */
+	position: absolute;
+	z-index: 3;
+	right: 6%;
+}
+.wrapper .slideshow .pic1 img{
+	width: 100%;
+	height: 90%;
+	padding-top:45px;
+}
+.wrapper .slideshow .pic2{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+.wrapper .slideshow .pic2 img{
+	width: 100%;
+	height: 100%;
+	padding-left: 10%;
+}
+.wrapper .slideshow h1{
+	display: block;
+	width: 55%;
+	height: 60px;
+	background: black;
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	text-transform: uppercase;
+	font-size: 55px;
+	position: absolute;
+	top: 28%;
+	left: 5%;
+	z-index: 5;
+}
+.wrapper .slideshow h2{
+	display: block;
+	width: 32%;
+	height: 40px;
+	background: white;
+	color: #FFD700;
+	line-height: 40px;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 38px;
+	position: absolute;
+	left: 5%;
+	top: 41.4%;
+	z-index: 5;
+}
+.wrapper .slideshow .content{
+	position: absolute;
+	left: 7%;
+	bottom: 12%;
+	z-index: 5;
+}
+.wrapper .slideshow .content p{
+	display: block;
+	width: auto;
+	height: 25px;
+	/* background: white; */
+	background-image: url('../icons/fast-forward-double-right-arrows (1).png');
+	background-repeat: no-repeat;
+	background-size: 10px 10px;
+	background-position: bottom 5px left 10px;
+	text-align: left;
+	line-height: 25px;
+	color: black;
+	text-transform: capitalize;
+	font-size: 20px;
+	margin-bottom: 5px;
+	padding-left: 25px;
+}
 /*css phần 2*/
 /*css phần 3*/
 /*css phần 4*/
 @media screen and (max-width: 768px){
 /*css phần 1*/
+	.wrapper{
+		width: 100%;
+	}
+	.wrapper .head{
+		width: 100%;
+	}
+	.wrapper .head .img{
+		width: 22%;
+		left:0;
+	}
+	.wrapper .head .menu{
+		width: 65%;
+		right: 0;
+	}
+	.wrapper .slideshow{
+		width: 100%;
+	}
+	.wrapper .slideshow h1{
+		font-size: 42px;
+	}
+	.wrapper .slideshow h2{
+		font-size: 30px;
+	}
+	.wrapper .slideshow .content{
+		bottom: 17%;
+	}
+	.wrapper .slideshow .content p{
+		font-size: 18px;
+		font-weight: bold;
+	}
 /*css phần 2*/
 /*css phần 3*/
 /*css phần 4*/
 }
 @media screen and (max-width: 480px){
 /*css phần 1*/
+	.wrapper{
+		width: 100%;
+	}
+	.wrapper .head{
+		width: 100%;
+		height: 160px;
+	}
+	.wrapper .head .img{
+		width: 50%;
+		left: 25%;
+	}
+	.wrapper .head .img img{
+		width: 100%;
+		height: 110px;
+	}
+	.wrapper .head .menu{
+		display: none;
+	}
+	.wrapper .head .tinynav{
+		position: absolute;
+		display: block;
+		width: 275px;
+		height: 28px;
+		left: 10%;
+		bottom: 10%;
+		padding-left: 10px;
+	}
+	.wrapper .slideshow{
+		width: 100%;
+	}
+	.wrapper .slideshow .pic1{
+		display: block;
+		width: 36%;
+		right: 2%;
+	}
+	.wrapper .slideshow h1{
+		font-size: 26px;
+		left: 2%;
+	}
+	.wrapper .slideshow h2{
+		font-size: 18px;
+		left: 2%;
+	}
+	.wrapper .slideshow .content{
+		bottom: 20%;
+		left: 4%;
+	}
+	.wrapper .slideshow .content p{
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 0px;
+	}
 /*css phần 2*/
 /*css phần 3*/
 /*css phần 4*/
