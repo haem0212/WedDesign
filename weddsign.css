@@ -391,13 +391,13 @@
 .wrapper .recent .contents1 p.p2a{
 	position: absolute;
 	left: 10px;
-	top: 60px;
+	top: 50px;
 	font-size: 15px;
 	color: white;
 }
 .wrapper .recent .contents1 p.p2b{
 	position: absolute;
-	top: 60px;
+	top:50px;
 	left: 90px;
 	font-size: 17px;
 	color: white;
@@ -405,13 +405,13 @@
 .wrapper .recent .contents1 p.p3a{
 	position: absolute;
 	left: 10px;
-	top: 105px;
+	top: 120px;
 	font-size: 15px;
 	color: white;
 }
 .wrapper .recent .contents1 p.p3b{
 	position: absolute;
-	top: 105px;
+	top: 120px;
 	left: 90px;
 	font-size: 17px;
 	color: white;
@@ -419,16 +419,17 @@
 .wrapper .recent ul li .contents1 p.p4{
 	position: absolute;
 	left: 10px;
-	top: 130px;
+	top: 150px;
 	font-size: 15px;
 	color: white;
 }
 .wrapper .recent ul li .contents1 a{
 	position: absolute;
-	top: 130px;
+	top: 150px;
 	left: 90px;
 	font-size: 17px;
 	color: #efb943;
+	text-decoration: none;
 }
 .wrapper .recent ul li .contents1 .a, .b{
 	position: absolute;
@@ -721,11 +722,37 @@
 	.wrapper .recent{
 		width: 100%;
 		clear: both;
-		height: 300px;
+		height: 350px;
 	}
 	.wrapper .recent ul li{
-		height: 200px;
+		height: 250px;
 		bottom: 30px;
+	}
+	.wrapper .recent .contents1 p.p2a{
+		left: 10px;
+		top: 50px;
+		font-size: 15px;
+	}
+	.wrapper .recent .contents1 p.p2b{
+		top: 50px;
+		left: 80px;
+		font-size: 15px;
+	}
+	.wrapper .recent .contents1 p.p3a{
+		top: 130px;
+	}
+	.wrapper .recent .contents1 p.p3b{
+		top: 130px;
+		left: 80px;
+		font-size: 15px;
+	}
+	.wrapper .recent ul li .contents1 p.p4{
+		top: 155px;
+	}
+	.wrapper .recent ul li .contents1 a{
+		top: 155px;
+		left: 55px;
+		font-size: 15px;
 	}
 /* css phần 4 */
 	.wrapper .footer{
@@ -879,6 +906,34 @@
 	.wrapper .recent ul li.l4{
 		top: 95%;
 		left: 22%;
+	}
+	.wrapper .recent .contents1 p.p2a{
+		top: 50px;
+		font-size: 17px;
+	}
+	.wrapper .recent .contents1 p.p2b{
+		top: 50px;
+		left: 100px;
+		font-size: 17px;
+	}
+	.wrapper .recent .contents1 p.p3a{
+		top: 100px;
+		font-size: 17px;
+	}
+	.wrapper .recent .contents1 p.p3b{
+		top: 100px;
+		left: 100px;
+		font-size: 17px;
+	}
+	.wrapper .recent ul li .contents1 p.p4{
+		top: 130px;
+		font-size: 17px;
+	}
+	.wrapper .recent ul li .contents1 a{
+		top: 130px;
+		left: 100px;
+		font-size: 20px;
+		font-weight: bold;
 	}
  /*css phần 4 */
 	.wrapper .footer{
