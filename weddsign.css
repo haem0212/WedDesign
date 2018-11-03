@@ -8,6 +8,7 @@
 	height: 1200px;
 	position: relative;
 	margin: 0 auto;
+	background: red;
 }
 /*css phần 1*/
 .wrapper .head{
@@ -45,7 +46,7 @@
 .wrapper .head .menu ul li{
 	float: left;
 	display: block;
-	width: 15%;
+	width: 14%;
 	height: 100%;
 	text-align: center;
 	/* background: silver; */
@@ -212,12 +213,118 @@
 	padding-left: 25px;
 }
 /*css phần 2*/
+.wrapper .tagline{
+	width: 100%;
+	height: 156px;
+	background: #231f20;
+}
+.wrapper .tagline .cont_pad1{
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px 0;
+	/*background: #231f20;*/
+}
+.wrapper .tagline h2{
+	font-size: 45px;
+	font-weight: normal;
+	text-align: center;
+	color: orange;
+	margin: 0 0 20px 0;
+	line-height: normal;
+}
+.wrapper .tagline h1{
+	font-size: 60px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    margin: 0 0 10px 0;	
+}
+.wrapper .content2{
+	width: 100%;
+	height: 425px;
+	background: url(img/body_bg.jpg) 50% 0 repeat #000;
+}
+.wrapper .content2 .cont_pad2{
+	position: relative;
+    width: 96%;
+    margin: 0 auto;
+    padding: 0;
+}
+.wrapper .content2 .cont_pad2 .box2{
+	width: 215px;
+	float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wrapper .content2 .cont_pad2 .box2 img{
+	background-color: #231f20;
+	border-radius: 30px;
+	float: left;
+    margin-right: 5px;
+}
+.wrapper .content2 .cont_pad2 .box2 h3{
+	/*float: left;*/
+	color: #ef9e0f;
+	margin: 10px 0px 25px 0;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 400;
+    line-height: normal;
+}
+.wrapper .content2 .cont_pad2 .box2 p{
+	line-height: 22px;
+    color: #7a7a7a;
+}
+.wrapper .content2 .cont_pad2 .box2 a{
+	padding: 8px 32px;
+	background-color: #231f20;
+	display: inline-block;
+    /*padding: 3px 8px;*/
+    margin: 22px 0 0 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+}
+.wrapper .content2 .cont_pad2 .box2 h2{
+	font-size: 24px;
+    margin: 20px 0 20px 0;
+    font-weight: 400;
+    line-height: normal;
+    color: #7a7a7a;
+}
+.wrapper .content2 .cont_pad2 .box2 strong{
+	color: #fff;
+	font-weight: bold;
+}
+.wrapper .content2 .cont_pad2 .box2 h6{
+	float: left;
+	color: #7a7a7a;
+	font-weight: bold;
+}
+.wrapper .content2 .cont_pad2 .box2 a.col{
+	color: #ef9e0f;
+	background: transparent;
+	padding: 3px 8px;
+}
+.wrapper .content2 .cont_pad2 .box2 a.col:hover{
+	color: #7a7a7a;
+}
+.wrapper .content2 .cont_pad2 .box2 a:hover{
+	color: orange;
+}
+/*.wrapper .content2 .cont_pad2 .last-col{
+	margin-bottom: 0px;
+}*/
 /*css phần 3*/
 .wrapper .recent{
 	position: absolute;
 	width: 100%;
 	height: 300px;
-	background: #191a1c;
+	background: url(img/body_bg.jpg) 50% 0 repeat #000;
 	position: relative;
 }
 .wrapper .recent h3{
@@ -236,6 +343,7 @@
 	height: 80%;
 	bottom: 5px;
 	list-style: none;
+	left: 0;
 
 }
 .wrapper .recent ul li.l2{
@@ -259,7 +367,7 @@
 	width:24%;
 	height: 80%;
 	bottom: 5px;
-	left: 76.1%;
+	right: 0;
 	list-style: none;
 }
 .wrapper .recent ul li img{
@@ -410,7 +518,51 @@
 		font-weight: bold;
 	}
 /*css phần 2*/
+.wrapper .tagline{
+		width: 100%;
+    	padding: 0px;
+    	text-align: center;
+	}
+	.wrapper .tagline .cont_pad1{
+		width: 420px;
+	}
+	.wrapper .tagline .cont_pad1 h2{
+		font-size: 20px;
+   		font-weight: normal;
+	}
+	.wrapper .tagline .cont_pad1 h1{
+		font-size: 30px;
+    	font-weight: normal;
+    	line-height: 20px;
+	}
+	.wrapper .tagline .cont_pad1{
+		width: 300px;
+	}
+	.wrapper .tagline .cont_pad1 h2{
+		font-size: 18px;
+   		font-weight: normal;
+	}
+	.wrapper .tagline .cont_pad1 h1{
+		font-size: 24px;
+    	font-weight: normal;
+    	line-height: 24px;
+	}
+	.wrapper .content2{
+		width: 100%;
+		height: 1000px;
+	}
+	.wrapper .content2 .cont_pad2{
+		width: 420px;
+	}
+	.wrapper .content2 .cont_pad2 .box2{
+		margin-bottom: 30px;
+		width: 100%;s
+	}
 /*css phần 3*/
+	.wrapper .recent{
+		width: 100%;
+		height: 250px;
+	}
 /*css phần 4*/
 }
 @media screen and (max-width: 480px){
@@ -472,6 +624,29 @@
 		margin-bottom: 0px;
 	}
 /*css phần 2*/
+	.wrapper .tagline{
+    	padding: 0px;
+    	text-align: center;
+	}
+	.wrapper .content2{
+	width: 100%;
+	height: 1200px;
+}
+	.wrapper .tagline .cont_pad1{
+		width: 300px;
+	}
+	.wrapper .tagline .cont_pad1 h2{
+		font-size: 18px;
+   		font-weight: normal;
+	}
+	.wrapper .tagline .cont_pad1 h1{
+		font-size: 24px;
+    	font-weight: normal;
+    	line-height: 24px;
+	}
+	.wrapper .content2 .cont_pad2{
+		width: 300px;
+	}
 /*css phần 3*/
 	.wrapper .recent{
 		height: 1000px;
