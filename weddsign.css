@@ -5,12 +5,9 @@
 .wrapper{
 	margin: 0 auto;
 	width: 980px;
-	height: auto;
-	background: #1f1d2c;
-	margin: 0 auto;
+	height: 1200px;
 	position: relative;
 	margin: 0 auto;
-	background: red;
 }
 /*css phần 1*/
 .wrapper .head{
@@ -48,7 +45,7 @@
 .wrapper .head .menu ul li{
 	float: left;
 	display: block;
-	width: 14%;
+	width: 15%;
 	height: 100%;
 	text-align: center;
 	/* background: silver; */
@@ -221,7 +218,7 @@
 	background: #231f20;
 }
 .wrapper .tagline .cont_pad1{
-	width: 100%;
+	width: 96%;
 	margin: 0 auto;
 	padding: 20px 0;
 	/*background: #231f20;*/
@@ -345,7 +342,6 @@
 	height: 80%;
 	bottom: 5px;
 	list-style: none;
-	left: 0;
 
 }
 .wrapper .recent ul li.l2{
@@ -369,7 +365,7 @@
 	width:24%;
 	height: 80%;
 	bottom: 5px;
-	right: 0;
+	left: 76.1%;
 	list-style: none;
 }
 .wrapper .recent ul li img{
@@ -484,253 +480,9 @@
 	display: block;
 }
 /*css phần 4*/
-*{
-	padding: 0;
-	margin: 0;
-}
-.wrapper .footer{
-	position: absolute;
-	width: 100%;
-	height: 300px;
-	/*background: gray;*/
-	position: relative;
-	border-top: 5px solid #e68a00;
-}
-.wrapper .footer .quicklinks{
-	float: left;
-	width: 30%;
-	height: 300px;
-	position: absolute;
-	left: 5%;
-	position: relative;
-}
-.wrapper .footer .quicklinks h4{
-	color: white;
-	font-size: 25px;
-	line-height: 80px;
-}
-.wrapper .footer .quicklinks li{
-	list-style:none;
-	margin-left: 8%;
-}
-.wrapper .footer .quicklinks li p{
-	color: #9297a0;
-	font-size: 16px;
-	line-height: 30px;
-}
-
-.wrapper .footer .quicklinks li a{
-	color: #9297a0;
-	text-decoration: none;
-	font-size: 16px;
-	line-height: 30px;
-}
-.wrapper .footer .quicklinks li a.home{
-	position: absolute;
-	top: 80px;
-	left: 50px;
-}
-.wrapper .footer .quicklinks li a.about{
-	position: absolute;
-	top: 110px;
-	left: 50px;
-}
-.wrapper .footer .quicklinks li a.se{
-	position: absolute;
-	top: 140px;
-	left: 50px;
-}
-.wrapper .footer .quicklinks li a.po{
-	position: absolute;
-	top: 170px;
-	left: 50px;
-}
-.wrapper .footer .quicklinks li a.news{
-	position: absolute;
-	top: 200px;
-	left: 50px;
-}
-.wrapper .footer .quicklinks li a.con{
-	position: absolute;
-	top: 230px;
-	left: 50px;
-}
-.wrapper .footer .quicklinks li a:hover{
-	color: red;
-}
-.wrapper .footer .get{
-	float: left;
-	position: absolute;
-	left: 2%;
-	width: 30%;
-	height: 300px;
-	position: relative;
-}
-.wrapper .footer .get h4{
-	color: white;
-	font-size: 25px;
-	line-height: 80px;
-}
-.wrapper .footer .get p{
-	color:#9297a0;
-	font-size: 16px;
-	line-height: 20px;
-}
-.wrapper .footer .get .information{
-	width: 100%;
-	height: 150px;
-	position: absolute;
-	top: 20px;
-	position: relative;
-}
-.wrapper .footer .get .information p{
-	color:#9297a0;
-	font-size: 14px;
-	line-height: 20px;
-}
-.wrapper .footer .get .information p.Mobile{
-	position: absolute;
-	top: 0;
-	left: 30%;
-}
-.wrapper .footer .get .information p.Telephone{
-	position: absolute;
-	top: 20px;
-	left: 30%;
-}
-.wrapper .footer .get .information p.FAX{
-	position: absolute;
-	top: 42px;
-	left: 30%;
-}
-.wrapper .footer .get .information p.E-mail a{
-	position: absolute;
-	top: 60px;
-	left: 30%;
-	color: #ff9900;
-	text-decoration: none;
-}
-.wrapper .footer .get .information p.E-mail a:hover{
-	color: blue;
-}
-.wrapper .footer ul.icons{
-	float: left;
-	width: 30%;
-	height: 300px;
-	position: absolute;
-	right: 5%;
-	list-style: none;
-}
-.wrapper .footer ul.icons li{
-	position: absolute;
-	top: 50px;
-	float: left;
-	width: 32px;
-	height: 32px;
-	background: black;
-	border-radius: 50%;
-}
-.wrapper .footer ul.icons li img{
-	width: 100%;
-	height: 100%;
-}
-.wrapper .footer ul.icons li.fb{
-	left: 5%;
-}
-.wrapper .footer ul.icons li.yt{
-	left: 20%;
-}
-.wrapper .footer ul.icons li.gg{
-	left: 35%;
-}
-.wrapper .footer ul.icons li.tw{
-	left: 50%;
-}
-.wrapper .footer ul.icons li.pin{
-	left: 65%;
-}
-.wrapper .footer ul.icons li.sh{
-	left: 80%;
-}
-.wrapper .footer ul.icons li:hover{
-	background-image: 
-}
-.wrapper .footer ul.icons p{
-	color: #9297a0;
-	font-size: 14px;
-	line-height: 20px;
-	position: absolute;
-	top: 100px;
-	left: 10%;
-}
-.wrapper .footer ul.icons .box{
-	width: 16%;
-	height: 50px;
-	background:#35373a;
-	position: absolute;
-	bottom: 50px;
-	right: 0;
-}
-.wrapper .footer ul.icons .box a{
-	text-decoration: none;
-	color: gray;
-	font-size: 40px;
-	line-height: 50px;
-	position: absolute;
-	top: 5px;
-	left: 12px;
-}
-
 @media screen and (max-width: 768px){
 	.wrapper{
 		width: 100%;
-<<<<<<< HEAD
-=======
-		height: 800px;
-		position: relative;
-	}
-	.wrapper .footer{
-		position: absolute;
-		width: 100%;
-		height: auto;
-		background: gray;
-		position: relative;
-	}
-	.wrapper .footer .quicklinks{
-		width: 60%;
-		height: auto;
-		/*background: pink;*/
-		position: absolute;
-		left: 20%;
-		top: 0;
-		position: relative;
-	}
-	.wrapper .footer .get{
-		position: absolute;
-		top: 0px;
-		left: 20%;
-		width: 60%;
-		height:auto;
-		/*background: green;*/
-		position: relative;
-	}
-	.wrapper .footer ul.icons{
-		width: 60%;
-		height: auto;
-		/*background: blue;*/
-		position: absolute;
-		left: 20%;
-		top: 0px;
-		position: relative;
-	}
-	.wrapper .footer ul.icons .box{
-		width: 10%;
-		height: 50px;
-		background:#35373a;
-		position: absolute;
-		right: 0;
-		top: 150px;
->>>>>>> cb5630c6d7f1180d9d09dff805cea6c401de7a63
 	}
 /*css phần 1*/
 	.wrapper{
@@ -765,7 +517,6 @@
 	}
 /*css phần 2*/
 .wrapper .tagline{
-		width: 100%;
     	padding: 0px;
     	text-align: center;
 	}
@@ -793,10 +544,6 @@
     	font-weight: normal;
     	line-height: 24px;
 	}
-	.wrapper .content2{
-		width: 100%;
-		height: 1000px;
-	}
 	.wrapper .content2 .cont_pad2{
 		width: 420px;
 	}
@@ -804,11 +551,7 @@
 		margin-bottom: 30px;
 		width: 100%;s
 	}
-/*css phần 3*/
-	.wrapper .recent{
-		width: 100%;
-		height: 250px;
-	}
+/*css phần 3
 /*css phần 4*/
 }
 @media screen and (max-width: 480px){
@@ -938,54 +681,4 @@
 	left: 22%;
 }
 /*css phần 4*/
-<<<<<<< HEAD
-}
-=======
-	.wrapper{
-		width: 100%;
-		height: 800px;
-		position: relative;
-	}
-	.wrapper .footer{
-		position: absolute;
-		width: 100%;
-		height: auto;
-		background: gray;
-		position: relative;
-	}
-	.wrapper .footer .quicklinks{
-		width: 60%;
-		height: auto;
-		/*background: pink;*/
-		position: absolute;
-		left: 10%;
-		top: 0;
-		position: relative;
-	}
-	.wrapper .footer .get{
-		position: absolute;
-		top: 0px;
-		left: 10%;
-		width: 60%;
-		height:auto;
-		/*background: green;*/
-		position: relative;
-	}
-	.wrapper .footer ul.icons{
-		width: 60%;
-		height: auto;
-		/*background: blue;*/
-		position: absolute;
-		left: 10%;
-		top: 0px;
-		position: relative;
-	}
-	.wrapper .footer ul.icons .box{
-		width: 17%;
-		height: 50px;
-		background:#35373a;
-		position: absolute;
-		right: -50px;
-		top: 60px;
-	}
 }
