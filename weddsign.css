@@ -1,4 +1,3 @@
-
 *{
 	padding: 0;
 	margin: 0;
@@ -6,13 +5,14 @@
 .wrapper{
 	margin: 0 auto;
 	width: 980px;
-	height: 1200px;
+	height:1900px;
 	background: #1f1d2c;
-	margin: 0 auto;
-	position: relative;
-}	
+	position: relative;	
+	/*background: url(img/body_bg.jpg) 50% 0 repeat #000;*/
+}
 /*css phần 1*/
 .wrapper .head{
+	position: absolute;
 	width: 100%;
 	height: 120px;
 	background: #191a1c;
@@ -127,6 +127,7 @@
 	display: none;
 }
 .wrapper .slideshow{
+	position: absolute;
 	width: 100%;
 	height:450px;
 	background-image: url('../icons/pexels-photo-255377.jpeg');
@@ -214,20 +215,333 @@
 	padding-left: 25px;
 }
 /*css phần 2*/
+.wrapper .tagline{
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	height: 156px;
+	/*background: #231f20;*/
+	position: relative;
+}
+.wrapper .tagline .cont_pad1{
+	width: 96%;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: #231f20;
+}
+.wrapper .tagline h2{
+	font-size: 45px;
+	font-weight: normal;
+	text-align: center;
+	color: orange;
+	margin: 0 0 20px 0;
+	line-height: normal;
+}
+.wrapper .tagline h1{
+	font-size: 60px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    margin: 0 0 10px 0;	
+}
+.wrapper .content2{
+	position: absolute;
+	width: 100%;
+	height: 450px;
+	/*background: red;*/
+	/*background: url(img/body_bg.jpg) 50% 0 repeat #000;*/
+	position: relative;
+}
+.wrapper .content2 .cont{
+	margin: 0 auto;
+	position: absolute;
+	width: 90%;
+    height: 100%;
+    /*background: pink;*/
+    position: relative;
+}
+.wrapper .content2 .cont .box2{
+	float: left;
+	width: 25%;
+	height: 250px;
+	/*background: red;*/
+    display: inline;
+    position: absolute;
+    top: 0;
+    position: relative;
+}
+.wrapper .content2 .cont .diff{
+	position: absolute;
+	left:25%;
+}
+.wrapper .content2 .cont .diff1{
+	position: absolute;
+	left: 50%;
+}
+.wrapper .content2 .cont .diff2{
+	position: absolute;
+	right: 0;
+}
+.wrapper .content2 .cont .box2 img{
+	position: absolute;
+	left: 5px;
+	background-color: #231f20;
+	border-radius: 30px;
+}
+.wrapper .content2 .cont .box2 h3{
+	color: #ef9e0f;
+	font-size: 25px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+.wrapper .content2 .cont .box2 p{
+	width: 90%;
+	font-size: 16px;
+	line-height: 20px;
+    color: #7a7a7a;
+    position: absolute;
+    left: 2.5%;
+    top: 90px;
+    text-align: justify;
+}
+.wrapper .content2 .cont .box2 a{
+	background-color: #231f20;
+	display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    top: 370px;
+
+}
+.wrapper .content2 .cont .box2 h2{
+	font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: #7a7a7a;
+    position: absolute;
+    top: 200px;
+}
+.wrapper .content2 .cont .diff strong{
+	color: #fff;
+	font-weight: bold;
+}
+.wrapper .content2 .cont .diff a{
+	position:absolute;
+	top: 330px;
+}
+.wrapper .content2 .cont .diff1 a{
+	position:absolute;
+	top: 360px;
+}
+.wrapper .content2 .cont .box2 h6{
+	float: left;
+	color: #7a7a7a;
+	font-weight: bold;
+	position: absolute;
+	top: 250px;
+}
+.wrapper .content2 .cont .diff2 a.col{
+	color: #ef9e0f;
+	font-size: 12px;
+	line-height: 20px;
+	position: absolute;
+	top: -3px;
+	left: 40px;
+	background: no-repeat;
+}
+.wrapper .content2 .cont .box2 a.col:hover{
+	color: #7a7a7a;
+}
+.wrapper .content2 .cont .box2 a:hover{
+	color: orange;
+}
 /*css phần 3*/
-/*css phần 4*/
-.wrapper .footer{
+.wrapper .recent{
 	position: absolute;
 	width: 100%;
 	height: 300px;
-	/*background: gray;*/
+	background: url(img/body_bg.jpg) 50% 0 repeat #000;
 	position: relative;
+}
+.wrapper .recent h3{
+	font-size: 30px;
+	position: absolute;
+	top: 5px;
+	color: #ea8c00;		
+}
+.wrapper .recent ul{
+	width: 100%;
+	height: 100%;
+}
+.wrapper .recent ul li.l1{
+	position: absolute;
+	width:24%;
+	height: 80%;
+	bottom: 5px;
+	list-style: none;
+
+}
+.wrapper .recent ul li.l2{
+	position: absolute;
+	width:24%;
+	height: 80%;
+	bottom: 5px;
+	left: 25.4%;
+	list-style: none;
+}
+.wrapper .recent ul li.l3{
+	position: absolute;
+	width:24%;
+	height: 80%;
+	bottom: 5px;
+	left: 50.8%;
+	list-style: none;
+}
+.wrapper .recent ul li.l4{
+	position: absolute;
+	width:24%;
+	height: 80%;
+	bottom: 5px;
+	left: 76.1%;
+	list-style: none;
+}
+.wrapper .recent ul li img{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	position: relative;
+}
+.wrapper .recent ul li p.lou{
+	width: 100%;
+	height: 40px;
+	background:#33363a;
+	position: absolute;
+	font-size: 20px;
+	bottom: 0px;
+	color: white;
+	border-bottom: 2px solid #efb943;
+	line-height: 40px;
+}
+.wrapper .recent ul li .contents1{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background:#33363a;
+	top: -101.8%;
+	position: relative;
+/*	transition: 8s;*/
+}
+.wrapper .recent ul li .contents1 p.p1{
+	position: absolute;
+	left: 10px;
+	font-size: 25px;
+	color: white;
+}
+.wrapper .recent .contents1 p.p2a{
+	position: absolute;
+	left: 10px;
+	top: 60px;
+	font-size: 15px;
+	color: white;
+}
+.wrapper .recent .contents1 p.p2b{
+	position: absolute;
+	top: 60px;
+	left: 90px;
+	font-size: 17px;
+	color: white;
+}
+.wrapper .recent .contents1 p.p3a{
+	position: absolute;
+	left: 10px;
+	top: 105px;
+	font-size: 15px;
+	color: white;
+}
+.wrapper .recent .contents1 p.p3b{
+	position: absolute;
+	top: 105px;
+	left: 90px;
+	font-size: 17px;
+	color: white;
+}
+.wrapper .recent ul li .contents1 p.p4{
+	position: absolute;
+	left: 10px;
+	top: 130px;
+	font-size: 15px;
+	color: white;
+}
+.wrapper .recent ul li .contents1 a{
+	position: absolute;
+	top: 130px;
+	left: 90px;
+	font-size: 17px;
+	color: #efb943;
+}
+.wrapper .recent ul li .contents1 .a, .b{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	border: 7px solid white;
+	border-radius: 50%;
+	bottom: 5px;
+	left: 10px;
+}
+.wrapper .recent ul li .contents1 .b{
+	left: 65px;
+}
+.wrapper .recent ul li .contents1 .a .a1, .a2{
+	position: absolute;
+	width: 25px;
+	height: 7px;
+	background:white;
+	top: 14px;
+	left: 5px;
+}
+.wrapper .recent ul li .contents1 .b .b1{
+	position: absolute;
+	width: 27px;
+	height: 5px;
+	background:white;
+	border-radius: 5px;
+	top: 15px;
+	left: 5px;
+	transform: rotate(-50deg);
+}
+.wrapper .recent ul li .contents1 .a .a2{
+	transform: rotate(90deg);
+}
+.wrapper .recent ul li:hover .contents1{
+	display: block;
+}
+/*css phần 4*/
+.wrapper .footer{
+	margin: 0 auto;
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	height: 350px;
+	/*background: gray;*/
 	border-top: 5px solid #e68a00;
+	position: relative;
 }
 .wrapper .footer .quicklinks{
 	float: left;
-	width: 30%;
+	width: 25%;
 	height: 300px;
+	/*background: red;*/
 	position: absolute;
 	left: 5%;
 	position: relative;
@@ -289,8 +603,8 @@
 .wrapper .footer .get{
 	float: left;
 	position: absolute;
-	left: 2%;
-	width: 30%;
+	left: 10%;
+	width: 25%;
 	height: 300px;
 	position: relative;
 }
@@ -391,31 +705,26 @@
 	top: 100px;
 	left: 10%;
 }
-.wrapper .footer ul.icons .box{
-	width: 16%;
+.wrapper .footer ul.icons .box a{
+	width: 17%;
 	height: 50px;
 	background:#35373a;
 	position: absolute;
 	bottom: 50px;
 	right: 0;
-}
-.wrapper .footer ul.icons .box a{
 	text-decoration: none;
 	color: gray;
+	text-align: center;
 	font-size: 40px;
-	line-height: 50px;
-	position: absolute;
-	top: 5px;
-	left: 12px;
+	line-height: 60px;
 }
 
 @media screen and (max-width: 768px){
 	.wrapper{
 		width: 100%;
-		height: 800px;
+		height: 3600px;
 		position: relative;
-	}
-	
+	}	
 /*css phần 1*/
 	.wrapper{
 		width: 100%;
@@ -425,41 +734,203 @@
 	}
 	.wrapper .head .img{
 		width: 22%;
-		left:0;
+		left:40%;
 	}
 	.wrapper .head .menu{
-		width: 65%;
-		right: 0;
+		display: none;
+	}
+	.wrapper .head .tinynav{
+		position: absolute;
+		display: block;
+		width: 275px;
+		height: 28px;
+		left: 35%;
+		bottom: 10%;
+		padding-left: 10px;
 	}
 	.wrapper .slideshow{
 		width: 100%;
 	}
+	.wrapper .slideshow .pic1{
+		position: absolute;
+		right: 2%;
+	}
+	.wrapper .slideshow .pic1 img{
+		width: 100%;
+		height: 90%;
+		padding-top:45px;
+	}
+	.wrapper .slideshow .pic2{
+		display: block;
+		width: 90%;
+		height: 100%;
+		position: absolute;
+		z-index: 2;
+	}
+	.wrapper .slideshow .pic2 img{
+		width: 100%;
+		height: 100%;
+	}
 	.wrapper .slideshow h1{
-		font-size: 42px;
-	}
-	.wrapper .slideshow h2{
-		font-size: 30px;
-	}
-	.wrapper .slideshow .content{
-		bottom: 17%;
-	}
-	.wrapper .slideshow .content p{
-		font-size: 18px;
-		font-weight: bold;
+		width: 65%;
+		position: absolute;
+		top: 28%;
+		left: 5%;
+		z-index: 5;
 	}
 /*css phần 2*/
+	.wrapper .tagline{
+		width: 100%;
+	}
+	.wrapper .tagline .cont_pad1{
+		width: 100%;
+	}
+	.wrapper .tagline .cont_pad1 h2{
+		font-size: 20px;
+   		font-weight: normal;
+	}
+	.wrapper .tagline .cont_pad1 h1{
+		font-size: 30px;
+    	font-weight: normal;
+    	line-height: 20px;
+	}
+	.wrapper .tagline .cont_pad1{
+		width: 100%;
+	}
+	.wrapper .tagline .cont_pad1 h2{
+		font-size: 18px;
+   		font-weight: normal;
+	}
+	.wrapper .tagline .cont_pad1 h1{
+		font-size: 24px;
+    	font-weight: normal;
+    	line-height: 24px;
+	}
+	.wrapper .content2{
+		width: 100%;
+		height: 1100px;
+	}
+	.wrapper .content2 .cont{
+		width: 60%;
+	}
+	.wrapper .content2 .cont .box2{
+		width: 100%;
+		height: 250px;
+	}
+	.wrapper .content2 .cont .diff{
+		position: absolute;
+		left:0;
+		top: 250px;
+	}
+	.wrapper .content2 .cont .diff1{
+		position: absolute;
+		left: 0;
+		top: 500px;
+	}
+	.wrapper .content2 .cont .diff2{
+		position: absolute;
+		left: 0;
+		top: 770px;
+	}
+	.wrapper .content2 .cont .box2 h3{
+		font-size: 30px;
+	    position: absolute;
+	    top: 5px;
+	    left: 10%;
+	}
+	.wrapper .content2 .cont .box2 p{
+		width: 80%;
+		font-size: 16px;
+		line-height: 20px;
+	    color: #7a7a7a;
+	    position: absolute;
+	    left: 2.5%;
+	    top: 50px;
+	    text-align: justify;
+	}
+	.wrapper .content2 .cont .box2 a{
+		background-color: #231f20;
+		display: block;
+	    font-size: 12px;
+	    text-transform: uppercase;
+	    color: #fff;
+	    text-decoration: none;
+	    width: 200px;
+	    height: 30px;
+	    line-height: 30px;
+	    text-align: center;
+	    position: absolute;
+	    left: 0;
+	    top: 200px;
+	}
+	.wrapper .content2 .cont .box2 h2{
+	    position: absolute;
+	    top: 100px;
+	}
+	.wrapper .content2 .cont .diff a{
+		position:absolute;
+		top: 180px;
+	}
+	.wrapper .content2 .cont .diff1 a{
+		position:absolute;
+		top: 200px;
+	}
+	.wrapper .content2 .cont .box2 h6{
+		position: absolute;
+		top: 250px;
+	}
 /*css phần 3*/
+	.wrapper .recent{
+		width: 100%;
+		height: 1000px;
+	}
+	.wrapper .recent h3{
+		left: 18%;
+		top: 15px;
+		font-size: 20px;
+	}
+	.wrapper .recent ul{
+		position: absolute;	
+		top:-200px;
+		width: 70%;
+		height: 100%;	
+	}
+		.wrapper .recent ul li.l1{
+		position: absolute;
+		width:100%;
+		height: 23%;
+		left:0;
+		top: 250px;
+		left: 22%;
+	}
+	.wrapper .recent ul li.l2{
+		position: absolute;
+		width:100%;
+		height: 23%;
+		top: 49%;
+		left: 22%;
+	}
+	.wrapper .recent ul li.l3{
+		position: absolute;
+		width:100%;
+		height: 23%;
+		top: 73%;
+		left: 22%;
+	}
+	.wrapper .recent ul li.l4{
+		position: absolute;
+		width:100%;
+		height: 23%;
+		top: 97%;
+		left: 22%;
+	}
 /*css phần 4*/
 	.wrapper .footer{
-			position: absolute;
 			width: 100%;
-			height: auto;
-			background: gray;
-			position: relative;
 		}
 		.wrapper .footer .quicklinks{
 			width: 60%;
-			height: auto;
+			height: 280px;
 			/*background: pink;*/
 			position: absolute;
 			left: 20%;
@@ -471,21 +942,21 @@
 			top: 0px;
 			left: 20%;
 			width: 60%;
-			height:auto;
+			height:220px;
 			/*background: green;*/
 			position: relative;
 		}
 		.wrapper .footer ul.icons{
 			width: 60%;
-			height: auto;
+			height: 220px;
 			/*background: blue;*/
 			position: absolute;
 			left: 20%;
 			top: 0px;
 			position: relative;
 		}
-		.wrapper .footer ul.icons .box{
-			width: 10%;
+		.wrapper .footer ul.icons .box a{
+			width: 12%;
 			height: 50px;
 			background:#35373a;
 			position: absolute;
@@ -494,12 +965,12 @@
 		}
 }
 @media screen and (max-width: 480px){
-/*css phần 1*/
 	.wrapper{
 		width: 100%;
-		height: 800px;
+		height: 4000px;
 		position: relative;
 	}
+/*css phần 1*/
 	.wrapper .head{
 		width: 100%;
 		height: 160px;
@@ -550,7 +1021,26 @@
 		margin-bottom: 0px;
 	}
 /*css phần 2*/
+	.wrapper .tagline{
+		width: 100%;
+	}
+	.wrapper .tagline .cont_pad1{
+		width: 100%;
+	}
+	.wrapper .content2{
+		width: 100%;
+		height: 1100px;
+	}
+	.wrapper .content2 .cont{
+		width: 100%;
+	}
 /*css phần 3*/
+	.wrapper .recent{
+		height: 1000px;
+		position: absolute;
+		top: -20px;
+		position: relative;
+	}
 /*css phần 4*/
 	.wrapper .footer{
 		position: absolute;
@@ -560,7 +1050,7 @@
 		position: relative;
 	}
 	.wrapper .footer .quicklinks{
-		width: 60%;
+		width: 80%;
 		height: auto;
 		/*background: pink;*/
 		position: absolute;
@@ -572,26 +1062,27 @@
 		position: absolute;
 		top: 0px;
 		left: 10%;
-		width: 60%;
+		width: 80%;
 		height:auto;
 		/*background: green;*/
 		position: relative;
 	}
 	.wrapper .footer ul.icons{
-		width: 60%;
-		height: auto;
+		width: 80%;
+		height: 150px;
 		/*background: blue;*/
 		position: absolute;
 		left: 10%;
 		top: 0px;
 		position: relative;
 	}
-	.wrapper .footer ul.icons .box{
-		width: 17%;
+	.wrapper .footer ul.icons .box a{
+		width: 15%;
 		height: 50px;
 		background:#35373a;
 		position: absolute;
-		right: -50px;
-		top: 60px;
+		right: 40px;
+		top: 90px;
 	}
 }
+
